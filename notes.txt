@@ -1,0 +1,13 @@
+   74  pip install pyloco
+   96  pip install netcdf4
+  100  sudo zypper install netcdf-devl
+  102  sudo zypper install netcdf-devel
+  114  sudo zypper install python-base
+  130  sudo zypper install git-core
+  135  sudo zypper install python3-jupyter_core
+  139  pip3 install jupyterlab
+  140  sudo pip3 install jupyterlab
+  173  pip install netcdf4
+
+  165  pip install setuptools
+  196  make dev-install
