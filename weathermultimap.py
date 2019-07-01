@@ -50,8 +50,14 @@ Example(s)
             #rootgrp = Dataset(path, "r", format="NETCDF4")
             rootgrp = Dataset(path, "r")
             print (rootgrp.data_model)
+            print ("GROUPS: ", rootgrp.groups)
+            print ("DIMENSIONS : ", rootgrp.dimensions.keys())
+            print ("VARIABLES :", rootgrp.variables.keys())
+            #x2a_Sf_lfrac
             import pdb; pdb.set_trace()
-            print (rootgrp.data_model)
+            rootgrp.variables['x2a_Sf_lfrac'].get_dims()
+            rootgrp.variables['x2a_Sf_lfrac'].shape
+
             rootgrp.close()
 
 #        self.add_forward(data=data)
